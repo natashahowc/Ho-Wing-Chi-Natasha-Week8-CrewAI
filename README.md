@@ -30,9 +30,8 @@ I would add live data connectors (e.g., web/API feeds and policy sources) and co
 4. Check generated files: `output.txt`, `research.md`, `analysis.md`, `final_report.md`.
 
 ## API Key Setup (DeepSeek)
-If you run this demo with live AI API calls, use the DeepSeek API so it can be tested with instructor-provided keys. Do **not** hardcode any API key in code.
 
-Example setup:
+API Key setup:
 
 ```bash
 export DEEPSEEK_API_KEY=your_key_here
@@ -40,5 +39,3 @@ export DEEPSEEK_MODEL=deepseek-chat
 export DEEPSEEK_API_BASE=https://api.deepseek.com
 python crew.py
 ```
-
-Optional: if using `.env`, set the same values there before running.
